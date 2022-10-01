@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.BoxChangeCol{
+  width: 70vw;
+  height: 25vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.BoxChangeColList {
+    width: 90%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
